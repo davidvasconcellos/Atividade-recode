@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.primary-color {
+  color: aliceblue;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+.bg-primary-color {
+  background: #e5e5e5;
+}
+.bg-secondary-color {
+  background: rgba(157, 151, 151, 0.2);
+}
+
+#carouselExampleIndicators {
+  margin-top: 16em;
+  margin-bottom: 1em;
+}
+.card {
+  border: 0.5px solid black;
+}
+
+#navbar {
+  font-size: 32px;
+}
+
+.bg-d {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#logo {
+  max-height: 7rem;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    max-height: 2rem;
+  }
+}
