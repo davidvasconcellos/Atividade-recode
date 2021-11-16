@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+< main>
 <head>
   <title>Squad 55</title>
   <!-- Required meta tags -->
@@ -71,6 +72,104 @@
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="assets//Banner para Mercado Shops Grande Colorido de Moda Feminina.png" alt="Third slide" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"
+    />
+    <!-- Css local -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-primary-color">
+    <!-- Menu -->
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-d" id="navbar">
+        <div class="container py-3">
+          <a href="#slider-container" class="navbar-brand primary-color">
+            <img id="logo" src="assets/squad55.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-items"
+            aria-controls="navbar-items"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                href="#topo"
+                  class="nav-link active primary-color"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#featured-container" class="nav-link primary-color"
+                >Produtos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link primary-color">Contatos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="timer" class="timer"></div>
+      <!-- carousel principal -->
+      <div class="container">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="assets/squad55 (4).svg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="assets/banner2.svg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="assets/banner3.svg"
+                alt="Third slide"
+              />
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -82,6 +181,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+ </main>
     </div>
     <!-- galeria de fotos -->
     <div id="featured-container" class="container">
@@ -135,7 +235,69 @@
                   <p class="preco">R$ 119,90</p>
                   <small class="text-muted">Última atualização 3 minutos atrás</small>
                 </div>
+
+      <!-- galeria de fotos -->
+      <div id="featured-container" class="container">
+        <h2 class="mt-5 mb-5">Novidades</h2>
+        <!-- section -->
+        <div class="card-deck mb-5">
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/conj_fem_blusa_e_short_frente-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 72,80</h5>
+              <p class="card-text">
+                Conjunto Feminino Blusa e Short Cintura alta - Preto
               </p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/conj_fem_saia_e_blusa-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 90,90</h5>
+              <p class="card-text">
+                Conjunto jacard losangos Feminino - Vermelho
+              </p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/conju_feminino_blusa_e_calça-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 99,99</h5>
+              <p class="card-text">
+                Conjunto Salvatore Comfy Com Regata e Jogger  - Grafite
+              </p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- section 2 -->
+        <div class="card-deck mb-5">
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/conjunto_termico-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 99,90</h5>
+              <p class="card-text">
+                Conjunto Segunda Pele Térmica Proteção Uv 50+ Mvb - Azul
+              </p>
+              
             </div>
         </div>
       </div>
@@ -156,6 +318,7 @@
               </div>
             </p>
           </div>
+
         </div>
         <div class="card">
           <img class="card-img-top" src="assets/moletom_e_short-removebg-preview.svg" alt="Card image cap" />
@@ -187,6 +350,35 @@
                 <small class="text-muted">Última atualização 3 minutos atrás</small>
               </div>
             </p>
+
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/moletom_e_short-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 159,90</h5>
+              <p class="card-text">
+                Kit Moletom e Bermuda De Moletom Preta - Azul
+              </p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top pt-2"
+              src="assets/Praia_masculino-removebg-preview.svg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">R$ 72,80</h5>
+              <p class="card-text">
+                Kit Camiseta e Bermuda De Camiseta Branca - Branco
+              </p>
+              
+            </div>
+
           </div>
         </div>
       </div>
@@ -219,6 +411,7 @@
       </div>
       <!-- Grid container -->
 
+
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2021 Copyright:
@@ -241,3 +434,36 @@
 </body>
 
 </html>
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Squad55</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="./main.js"></script>
+</html>
+
